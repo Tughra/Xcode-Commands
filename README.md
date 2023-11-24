@@ -53,7 +53,13 @@ You can verify this by running <alias name> doctor -v.
 
 For example, to verify flutterd is pointing to dev, run flutterd doctor -v.
 
-Here is my output when I run the command:
+
+Eğer path olarak eklenmez ise flutter3_13_8 doctor -v komutunu çalıştırdıktan sonra
+ Warning: `flutter` on your path resolves to
+      /Users/apple/flutter/bin/flutter, which is not inside your current Flutter
+      SDK checkout at /Users/apple/flutter_3_13_8. Consider adding
+      /Users/apple/flutter_3_13_8/bin to the front of your path.
+uyarısı verecektir. Bu uyarı aşağıdaki gibi path eklendikten sonra ortadan kalkar.
 
 ## Kalıcı olarak path ekleme Mac
 
