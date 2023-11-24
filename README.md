@@ -73,6 +73,15 @@ export PATH=/Users/apple/flutter_3_13_8/bin:$PATH
 PATH değişkenini kalıcı olarak güncellemek için profil dosyanıza (~/.bashrc, ~/.zshrc veya benzeri) yukarıdaki export komutunu ekleyebilirsiniz. 
 Bu sayede her terminal oturumu başladığında otomatik olarak eklenmiş olacaktır.
 
+Yada direkt yazarak da eklenebilir.
+```sh
+echo 'export PATH=/Users/apple/flutter_3_13_8/bin:$PATH' >> ~/.zshrc
+```
+bashrc için
+```sh
+echo 'export PATH=/Users/apple/flutter_3_13_8/bin:$PATH' >> ~/.bashrc
+```
+
 $HOME görüntülemek için
 ```sh
 echo $HOME
