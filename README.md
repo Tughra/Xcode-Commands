@@ -35,7 +35,7 @@ That means when you type flutterd in the terminal then it will use the SDK locat
 ```sh
 if [ -f ~/.bash_aliases ]; then
 . ~/.bash_aliases
-fis
+fi
 ```
 which is basically the rc file
 
